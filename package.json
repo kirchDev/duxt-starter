@@ -1,0 +1,8 @@
+{
+  "$schema": "https://www.schemastore.org/package.json",
+  "name": "duxt-starter",
+  "version": "0.0.0",
+  "description": "Minimal Nuxt documentation site built on the duxt layer — clone it with `nuxi init -t github:kirchDev/duxt-starter`.",
+  "private": true,
+  "type": "module"
+}
