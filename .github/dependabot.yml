@@ -17,11 +17,9 @@ updates:
     # or broken versions.
     cooldown:
       default-days: 3
-    # `dependencies` only. The repo's `label_packages` are base, community, ai,
-    # priority and dependabot — no `javascript`, so `stack: javascript` is not
-    # a label this repo has.
     labels:
       - 'dependencies'
+      - 'stack: javascript'
     groups:
       npm-minor-patch:
         patterns:
