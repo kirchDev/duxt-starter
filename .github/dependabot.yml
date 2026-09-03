@@ -1,0 +1,31 @@
+# This repo's branch flow is `[main]`, so Dependabot opens its PRs against the
+# default branch and `target-branch` is deliberately absent. Setting it would
+# switch OFF `labels` and `commit-message` for SECURITY updates, which always
+# target the default branch — the twin blocks a `[dev, main]` repo carries exist
+# only to work around that. See CLAUDE.md in kirchDev/infrastructure.
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    commit-message:
+      prefix: 'fix(deps)'
+      prefix-development: 'chore(deps-dev)'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+    # Mirror the npm `minimumReleaseAge` (3 days): hold updates back until a
+    # release has been public for a few days, dodging just-published malicious
+    # or broken versions.
+    cooldown:
+      default-days: 3
+    # `dependencies` only. The repo's `label_packages` are base, community, ai,
+    # priority and dependabot — no `javascript`, so `stack: javascript` is not
+    # a label this repo has.
+    labels:
+      - 'dependencies'
+    groups:
+      npm-minor-patch:
+        patterns:
+          - '*'
+        update-types:
+          - 'minor'
+          - 'patch'
