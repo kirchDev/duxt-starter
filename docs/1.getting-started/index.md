@@ -1,6 +1,7 @@
 ---
 title: Getting started
 description: Run the site locally and begin writing.
+icon: lucide:rocket
 ---
 
 # Getting started

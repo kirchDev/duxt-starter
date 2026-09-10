@@ -9,6 +9,7 @@ export default defineAppConfig({
       }
     ],
     landing: {
+      preview: { to: '/getting-started' },
       actions: [
         {
           label: 'Get started',
