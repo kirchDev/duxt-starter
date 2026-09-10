@@ -1,0 +1,55 @@
+# region gitignore-sync
+# stacks: core, node, nuxt, dotenv, macos
+# ─────────────────────────────────────────
+
+# region core@v1
+.DS_Store
+# endregion
+
+# region node@v1
+node_modules
+dist
+coverage
+/logs
+*.log
+*.tsbuildinfo
+.eslintcache
+.npm
+*.tgz
+# endregion
+
+# region nuxt@v1
+.nuxt
+.output
+.nitro
+.data
+# endregion
+
+# region dotenv@v1
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.testing
+# endregion
+
+# region macos@v1
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.icloud
+# endregion
+
+# endregion
