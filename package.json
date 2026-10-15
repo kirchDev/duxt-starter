@@ -20,8 +20,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@kirchdev/duxt": "^0.3.4",
-    "nuxt": "^4.5.2"
+    "@kirchdev/duxt": "^0.7.0",
+    "nuxt": "^4.6.1"
   },
   "engines": {
     "node": ">=24"
