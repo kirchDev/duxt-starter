@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@kirchdev/duxt": "^0.3.4",
-    "nuxt": "^4.5.2"
+    "nuxt": "^4.6.4"
   },
   "engines": {
     "node": ">=24"
