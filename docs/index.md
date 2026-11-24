@@ -3,8 +3,6 @@ title: Welcome
 description: Start documenting your project with duxt.
 ---
 
-# Welcome
-
 This site is built with [duxt](https://github.com/kirchDev/duxt). Add Markdown
 files to `docs/` and they appear in the documentation automatically.
 
