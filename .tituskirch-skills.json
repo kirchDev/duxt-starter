@@ -1,0 +1,9 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TitusKirch/skills/main/tituskirch-skills.schema.json",
+  "forge": "github",
+  "verify": "pnpm build",
+  "docs": {
+    "preset": "app",
+    "render": "duxt"
+  }
+}
