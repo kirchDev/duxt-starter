@@ -29,7 +29,6 @@ Open the local address Nuxt prints, then edit `docs/index.md`.
 
 ## ✨ Features
 
-- **📄 Markdown-first** — files in `docs/` become documentation pages.
 - **🎨 Ready-made theme** — duxt supplies the site shell, navigation, and dark mode.
 - **🧭 Clear first step** — the landing page and navbar lead readers to Getting started.
 - **⚙️ Small configuration surface** — set the site name in `app/app.config.ts`.
