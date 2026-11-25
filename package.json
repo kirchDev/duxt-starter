@@ -20,7 +20,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@kirchdev/duxt": "^0.3.4",
+    "@kirchdev/duxt": "^0.12.0",
     "nuxt": "^4.6.4"
   },
   "engines": {
