@@ -25,7 +25,7 @@ pnpm install
 pnpm dev
 ```
 
-Open the local address Nuxt prints, then edit `docs/index.md`.
+Open the local address Nuxt prints, then edit a file in `docs/`.
 
 ## ✨ Features
 

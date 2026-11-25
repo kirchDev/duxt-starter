@@ -17,7 +17,8 @@
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "check": "pnpm build"
   },
   "dependencies": {
     "@kirchdev/duxt": "^0.12.0",
