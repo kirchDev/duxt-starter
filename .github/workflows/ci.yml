@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+
+# The checks come from this repo's own `check` script in package.json.
+
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+    types: [opened, synchronize, reopened, ready_for_review]
+
+# No `paths-ignore`: a workflow that does not trigger reports no check at all,
+# and a dependency pull request without a check is one merge-deps cannot verify.
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: CI
+    uses: kirchDev/workflows/.github/workflows/_ci-check.yml@e3abe515daa69d2a65794a96608d698daaf389ce # v0.19.1
