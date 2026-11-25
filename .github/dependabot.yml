@@ -27,3 +27,22 @@ updates:
         update-types:
           - 'minor'
           - 'patch'
+
+  - package-ecosystem: 'github-actions'
+    commit-message:
+      prefix: 'chore(deps)'
+    directory: '/'
+    schedule:
+      interval: 'monthly'
+    cooldown:
+      default-days: 3
+    labels:
+      - 'dependencies'
+      - 'stack: github-actions'
+    groups:
+      actions-minor-patch:
+        patterns:
+          - '*'
+        update-types:
+          - 'minor'
+          - 'patch'
