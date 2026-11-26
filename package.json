@@ -21,7 +21,7 @@
     "check": "pnpm build"
   },
   "dependencies": {
-    "@kirchdev/duxt": "^0.12.0",
+    "@kirchdev/duxt": "^0.14.1",
     "nuxt": "^4.6.4"
   },
   "engines": {
